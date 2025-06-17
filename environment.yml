@@ -1,0 +1,8 @@
+name: visual_plodinf
+channels:
+  - conda-forge
+  - bioconda
+  - defaults # Often useful to include defaults
+dependencies:
+  - matplotlib>=3.10.3
+  - bcftools>=1.22
